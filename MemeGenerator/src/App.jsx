@@ -1,6 +1,12 @@
 import React from 'react';
 
 export default function App() {
+
+    function handleClick(){
+
+    }
+
+
     return (
         <main>
             <header>
