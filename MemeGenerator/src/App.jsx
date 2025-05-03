@@ -4,7 +4,7 @@ export default function App() {
     return (
         <main>
             <header>
-                <img src="" alt="meme-icon"/>
+                <img className="icon" src="" alt="meme-icon"/>
                 <h2>Meme Generator</h2>
             </header>
             <section className="input">
@@ -23,6 +23,7 @@ export default function App() {
             <button>
                 Get a new meme image
             </button>
+            <img className="meme" src="" alt="meme"/>
         </main>
     )
 }

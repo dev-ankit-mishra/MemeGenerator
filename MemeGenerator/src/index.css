@@ -50,11 +50,21 @@ label input{
 }
 
 button{
-    width: 70%;
+    width: 71%;
     padding: 10px 25px;
     background-color: purple;
     color: white;
     font-size: 1rem;
     border-radius: 10px;
-    letter-spacing: ;
+    letter-spacing: 0.5px;
+}
+
+.icon{
+
+}
+.meme{
+    width: 71%;
+    height: 71%;
+
+
 }
