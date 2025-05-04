@@ -20,15 +20,15 @@ export default function App() {
             })
         })
     }
-    // React.useEffect(()=>{
-    //
-    //     fetch("https://api.imgflip.com/get_memes")
-    //         .then(res=>res.json())
-    //         .then(data =>{
-    //             setAllMemes(data.data.memes)
-    //         })
-    // },[])
-    //
+    React.useEffect(()=>{
+
+        fetch("https://api.imgflip.com/get_memes")
+            .then(res=>res.json())
+            .then(data =>{
+                setAllMemes(data.data.memes)
+            })
+    },[])
+
     function handleChange(e){
         e.preventDefault()
         const {name,value}=e.target;
