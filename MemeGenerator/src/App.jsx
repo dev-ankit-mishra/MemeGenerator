@@ -20,7 +20,6 @@ export default function App() {
             })
         })
     }
-    //
     // React.useEffect(()=>{
     //
     //     fetch("https://api.imgflip.com/get_memes")
