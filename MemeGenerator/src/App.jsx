@@ -29,17 +29,17 @@ export default function App() {
     //         })
     // },[])
     //
-    // function handleChange(e){
-    //     e.preventDefault()
-    //     const {name,value}=e.target;
-    //     setMeme((prev)=>{
-    //         return (
-    //             {...prev,
-    //             [name] : value}
-    //         )
-    //     })
-    //
-    // }
+    function handleChange(e){
+        e.preventDefault()
+        const {name,value}=e.target;
+        setMeme((prev)=>{
+            return (
+                {...prev,
+                [name] : value}
+            )
+        })
+
+    }
 
 
     return (
