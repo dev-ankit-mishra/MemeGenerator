@@ -10,6 +10,7 @@ main{
     flex-direction: column;
     align-items: center;
 
+
 }
 
 header{
@@ -20,51 +21,87 @@ header{
     align-items: center;
     background-color: purple;
     color: white;
+    padding: 15px;
 
 }
 header img{
-    margin: 0 20px 0 10px;
+    margin: 0 15px 0 10px;
 }
 
 .input{
     width: 100%;
-    padding: 40px 0;
+    padding: 25px 0;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .input > label{
     font-size: 1.25rem;
     font-weight: 500;
     letter-spacing: 1px;
+    margin: 0 20px;
 }
 
 label input{
-    padding: 10px 25px;
+    padding: 10px 30px;
     margin: 8px 0;
     border: 1px solid gray;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 button{
     width: 71%;
-    padding: 10px 25px;
+    padding: 15px 25px;
     background-color: purple;
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-radius: 10px;
     letter-spacing: 0.5px;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
 }
 
 .icon{
+    width: 40px;
+    height: 35px;
+}
+.meme-div{
+    width:550px;
+    height:400px;
+    margin: 40px 0;
+    position: relative;
+    text-align: center;
 
 }
-.meme{
-    width: 71%;
-    height: 71%;
 
-
+.meme-div img{
+    width: 100%;
+    height: 100%;
 }
+
+.meme-div span{
+    position: absolute;
+    transform: translateX(-50%);
+    text-shadow: 2px 2px 5px black;
+    left: 50%;
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+.meme-div .top-text{
+    top: 30px;
+}
+
+.meme-div .bottom-text{
+    bottom: 30px;
+}
+
+
+
