@@ -8,18 +8,18 @@ export default function App() {
         bottomText : "WALK INTO MORDOR"
     });
 
-    // const [allMemes, setAllMemes] = React.useState([]);
-    //
-    // function handleClick(){
-    //     const random=Math.floor(Math.random()*allMemes.length);
-    //     const memeUrl=allMemes[random].url;
-    //     setMeme((prev)=>{
-    //         return({
-    //             ...prev,
-    //             imgUrl: memeUrl
-    //         })
-    //     })
-    // }
+    const [allMemes, setAllMemes] = React.useState([]);
+
+    function handleClick(){
+        const random=Math.floor(Math.random()*allMemes.length);
+        const memeUrl=allMemes[random].url;
+        setMeme((prev)=>{
+            return({
+                ...prev,
+                imgUrl: memeUrl
+            })
+        })
+    }
     //
     // React.useEffect(()=>{
     //
